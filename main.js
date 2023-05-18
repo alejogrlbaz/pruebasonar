@@ -4,4 +4,4 @@ function saludar(nombre) {
 }
 
 // Llamar a la función y pasarle un nombre
-saludar("Alejandro");
+saludar("Sebas");
