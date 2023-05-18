@@ -1,0 +1,12 @@
+// Definir una función que calcule el área de un círculo
+function calcularAreaCirculo(radio) {
+  const area = Math.PI * radio * radio;
+  return area;
+}
+
+// Obtener el radio del usuario
+const radioUsuario = parseFloat(prompt("Ingresa el radio del círculo:"));
+
+// Calcular el área del círculo y mostrar el resultado
+const areaCirculo = calcularAreaCirculo(radioUsuario);
+console.log("El área del círculo es: " + areaCirculo.toFixed(2));
